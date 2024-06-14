@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MIT - Note Taking Application</title>
+    <style>
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            /* background: no-repeat center center fixed; */
+            background-size: cover;
+        }
+
+        .container {
+            text-align: center;
+            background: white;
+            padding: 50px;
+            opacity: 90%;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.5em;
+            color: #666;
+            margin-bottom: 20px;
+        }
+
+        .key-feature, .about-author {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        .about-author img {
+            display: block;
+            margin: 0 auto 20px;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+        }    
+
+        .button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            color: white;
+            background-color: #007BFF;
+            border: none;
+            border-radius: 5px;
+            text-decoration: none;
+            transition: background-color 0.3s;
+        }
+
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+    </style>
+</head>
+<body class="background-image" background="App _Image.jpg">
+    <div class="container">
+        <h1>MIT</h1>
+        <p>Ideas rule the world, let's nurture them!</p>
+        <p class="key-feature">Our app allows you to easily capture, organize, and share your ideas. With seamless synchronization across devices and a user-friendly interface, you can ensure your brilliant ideas are always at your fingertips.</p>
+        <p class="about-author">
+            <img src="author.jpg" alt="Author's Portrait">
+            Developed by Evaristus, a passionate software engineer, this app is built using Python and Django for the backend, and Bootstrap for the frontend. The development process was facilitated by Visual Studio Code, ensuring a robust and efficient coding experience.
+        </p>
+        <a href="#" class="button">Get Started</a>
+    </div>
+</body>
+</html>
